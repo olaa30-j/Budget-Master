@@ -13,8 +13,7 @@ Budget Master is a web application that empowers users to effectively manage the
 
 ## Tech Stack
 - **React:** Building the user interface.
-- **TypeScript:** Ensuring type safety and robust code.
-- **Redux:** Managing application state.
+- **Context API:** Managing application state.
 - **Chart.js:** Creating dynamic charts for data visualization.
 - **PhosphorJS Icons:** Adding icons for a polished user interface.
 - **LocalStorage:** Storing data on the client side.
