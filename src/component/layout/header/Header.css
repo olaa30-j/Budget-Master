@@ -1,0 +1,37 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.logo{
+    background-image:url("../../../../public/logo.png");
+    background-size: contain;
+    width: 114px;
+    height: 60px;
+} 
+
+.btn-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    height: fit-content;
+    padding: 0.6rem 1.1rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    color: var(--color-primary);
+    font-size: 1.1rem;
+    font-weight: 500;
+    border:none;
+    color: var(--text-white);
+    background-color: var(--color-primary);
+}
+
+.btn-form:hover{
+    background-color: var(--color-primary-light);
+}
+
+.darkmode-gear{
+    margin-left: 0.8rem;
+}

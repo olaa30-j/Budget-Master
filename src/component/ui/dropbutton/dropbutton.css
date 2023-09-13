@@ -1,0 +1,16 @@
+.dropdown{
+    border: none;
+    background-color: var(--color-primary);
+    color: var(--text-white);
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+}
+
+.dropdown:focus{
+    border: none;
+}
+
+.dropdown-option{
+    padding: 0.5rem 0 ;
+}

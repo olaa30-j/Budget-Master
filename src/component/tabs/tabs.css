@@ -1,0 +1,64 @@
+.parallax-container-tabs {
+    width: 100%;
+    height:max-content;
+    overflow: hidden;
+    position: relative;
+}
+.section-tabs {
+    height: 15vh;
+    transform-origin: center center;
+    transition: 0.5s ease;
+}
+
+.all-tabs{
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 0;
+}
+
+.tab-btn{
+    width: 29.95vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:grey;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    color: var(--text-white);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.active{
+    transform: scale(1.1);
+    transform-origin: center;
+    background: var(--background-linear-level-two);
+    box-shadow: 0 0px 12px rgba(0,0,0,.7), inset 0 -1px;
+}
+
+@media screen and (max-width: 992px){
+    .active{
+        transform: scale(1.5);
+    }
+}
+
+
+/* End Tabs Style */
+/* ****************************************************************************************** */
+
+/* Start Content Style */
+.parallax-container-content {
+    width: 100%;
+    padding: 0 2rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.section-content {
+    padding: 0 2rem;
+    transform-origin: center center;
+    transition: 0.5s ease;
+}

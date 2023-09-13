@@ -1,0 +1,154 @@
+{
+  "transactions": [
+    {
+      "id": 12,
+      "title": "Rentexpanse",
+      "amount": 1000,
+      "type": "expanse",
+      "category": "3",
+      "date": "2021-10-13"
+    },
+    {
+      "id": 23,
+      "title": "test 2",
+      "amount": "40000",
+      "type": "income",
+      "category": "5",
+      "date": "2022-10-18"
+    },
+    {
+      "id": 34,
+      "title": "edit",
+      "amount": "3333",
+      "type": "income",
+      "category": "2",
+      "date": "2022-10-21"
+    },
+    {
+      "id": 45,
+      "title": "ola",
+      "amount": "3030",
+      "type": "expanse",
+      "category": "6",
+      "date": "2023-09-02"
+    },
+    {
+      "id": 56,
+      "title": "ew",
+      "amount": "23",
+      "type": "expanse",
+      "category": "2",
+      "date": "2023-09-02"
+    },
+    {
+      "id": 67,
+      "title": "ew",
+      "amount": "23",
+      "type": "income",
+      "category": "5",
+      "date": "2023-09-02"
+    },
+    {
+      "id": 78,
+      "title": "wqq",
+      "amount": "5",
+      "type": "expanse",
+      "category": "4",
+      "date": "2023-09-30"
+    },
+    {
+      "title": "mlkj",
+      "amount": "98",
+      "type": "expanse",
+      "category": "3",
+      "date": "2023-09-08",
+      "id": 79
+    },
+    {
+      "title": "we",
+      "amount": "12",
+      "type": "expanse",
+      "category": "4",
+      "date": "2023-09-10",
+      "id": 82
+    },
+    {
+      "title": "fdddf",
+      "amount": "45",
+      "type": "expanse",
+      "category": "3",
+      "date": "2023-09-10",
+      "id": 83
+    },
+    {
+      "title": "company2",
+      "amount": "3000",
+      "type": "income",
+      "category": "2",
+      "date": "2023-09-12",
+      "id": 84
+    },
+    {
+      "title": "edit new",
+      "amount": "1000",
+      "type": "expanse",
+      "category": "4",
+      "date": "2023-09-12",
+      "id": 85
+    },
+    {
+      "title": "add income edit",
+      "amount": "1500",
+      "type": "income",
+      "category": "2",
+      "date": "2023-09-12",
+      "id": 86
+    },
+    {
+      "title": "edit new",
+      "amount": "10000",
+      "type": "expanse",
+      "category": "5",
+      "date": "2023-09-13",
+      "id": 87
+    },
+    {
+      "title": "new budget edit",
+      "amount": "1000",
+      "type": "income",
+      "category": "5",
+      "date": "2023-09-13",
+      "id": 88
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Business"
+    },
+    {
+      "id": 2,
+      "name": "Monthly incom"
+    },
+    {
+      "id": 3,
+      "name": "Investment"
+    },
+    {
+      "id": 4,
+      "name": "Home Needs"
+    },
+    {
+      "id": 5,
+      "name": "Bucket List"
+    },
+    {
+      "id": 6,
+      "name": "Savings"
+    },
+    {
+      "id": 7,
+      "name": "Freelance"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+.remove-button{
+    padding: 0.5rem;
+    color: var(--text-white);
+    background-color: rgb(191, 11, 11);
+    border: none;
+    height: fit-content;
+    border-radius: 75px;
+    font-weight: 500;
+}

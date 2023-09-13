@@ -1,0 +1,16 @@
+.edit-button{
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    margin-right: 0.5rem;
+    height: fit-content;
+    border-radius: 75px;
+}
+
+.income-edit{
+    color: var(--color-tab2);
+}
+
+.expanse-edit{
+    color: var(--color-tab3);
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    vertical-align: middle;
+    color: 'white';
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-primary:#377D76;
+    --color-primary-light:#a1d5d0;
+    --color-primary-dark:#183835;
+
+    --color-secondry:#825539;
+    --color-secondry-light:#D4BA9F;
+    --color-secondry-dark:#3e281b;
+
+    --color-tab3: #be6c15;
+    --color-tab2:#377D76 ;
+    --color-tab: #A59FD4;
+
+    --color-extra:#dbffff;
+    --text-color:#373D3F;
+    --text-color-dark-blue:#272643;
+    --text-white:#ffffff;
+
+    --background-linear: linear-gradient(135deg, #377D7D 3%, #6FB3B1 90%);
+    --background-linear-level-two: linear-gradient(135deg, #a1d5d0 14%, #377D76 43%, #183835 89%);
+}
+
+body{
+    height: 100vh;
+}
+
+.error{
+    color: red;
+}
+.display-block {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}

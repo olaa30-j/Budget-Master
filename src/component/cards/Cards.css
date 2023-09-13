@@ -1,0 +1,55 @@
+.cards{
+    width: 87vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
+    color: var(--text-white);
+} 
+
+.card{
+    width: 30%;
+    padding: 5rem 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px !important;
+    box-shadow: rgba(193, 193, 193, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(111, 111, 111, 0.2) 0px -3px 0px inset;
+}
+
+.card-icon{
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 75px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.28);
+}
+
+.card-text{
+    color: white;
+}
+
+.amount{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-white);
+}
+
+.card-money{
+    border: 2px solid #a59fd463 !important;
+    background-image:url('../../../public/card1.png');
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.card-income{
+    border : 2px solid #377d7680 !important;
+    background-image:url('../../../public/card2image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-expanse{
+    border: 2px solid #d4ba9f6d !important;
+    background-image:url('../../../public/card3.png');
+    background-size: cover;
+    background-repeat: no-repeat;}

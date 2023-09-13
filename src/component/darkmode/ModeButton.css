@@ -1,0 +1,61 @@
+/* but icon */
+.mode-container{
+    width: 100%;
+    display: flex;
+    margin-top: 0.2rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.btn-container{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 7rem;
+    padding: 4px 3px;
+    background-color: var(--text-white);
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 75px;
+}
+
+.btn-container-dark{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 7rem;
+    padding: 4px 3px;
+    box-shadow: rgb(111, 113, 114) 3px 3px 6px 0px inset, rgba(19, 19, 19, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 75px;
+    background-color: #212121;
+}
+
+.mode-btn{
+    border: none;
+    border-radius: 75px;
+    font-size: 0.875rem;
+    padding: 10px;
+    width: 50%;
+    background-color: transparent;
+    transition-duration: 0.5s;  
+}
+
+.mode-btn-light{
+    background-color: orange;
+    color: var(--text-white);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.mode-btn-light:hover{
+    padding: 10px 20px 10px 10px;
+}
+
+.mode-btn-dark{
+    background-color:#3a3a3a7d;
+    color: var(--text-white);
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.mode-btn-dark:hover{
+    padding: 10px 10px 10px 20px;
+}

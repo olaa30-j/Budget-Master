@@ -1,0 +1,47 @@
+.main-container-transcations{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    background-color: white;
+    margin: 0.8rem 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.text{
+    text-align: left !important;
+    margin-bottom: 0.5rem;
+    color: var(--text-color) !important;
+}
+
+.icon-transaction{
+    padding: 0.6rem;
+}
+
+.income{
+    border-radius: 20px;
+    color: var(--color-tab2);
+    background-color: #c3e4e1;
+}
+
+.expanse{
+    border-radius: 20px;
+    color: var(--color-tab3);
+    background-color: #f9e5cf;
+}
+
+.more-data{
+    color: rgb(123, 123, 123);
+}
+
+.content-transaction{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.transaction-controller{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}

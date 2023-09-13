@@ -1,0 +1,16 @@
+.parallax-container {
+    width: 100%;
+    height: 85vh;
+    overflow: hidden;
+    position: relative;
+}
+.section {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform-origin: center center;
+    transition: 0.5s ease;
+}
